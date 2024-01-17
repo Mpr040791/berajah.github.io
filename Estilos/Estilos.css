@@ -1,0 +1,486 @@
+body{
+       color: #666666;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.80857;
+        font-weight: normal;
+   /*background-color: rgb(184, 104, 0);89*/
+  background-image: url(../Estilos/fondo.jpg);
+}
+
+
+.logo{
+    text-transform: uppercase;
+    font-size: 50px;
+    cursor: pointer;
+    transition: .3s linear;
+    color: #00f2fa;
+}
+
+@keyframes move{
+    100% {
+        background-position: 2000px 0;
+    }
+
+}
+
+#portada{
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+/* legend*/
+
+legend {
+    font-size: 25px;
+    color: #fdfdfd;
+    font-weight: 700;
+    margin: 5px;
+}
+
+
+.lista_ordenada li {
+    text-align: justify !important;
+    list-style: inside;
+}
+
+/*-------- cop`y*/
+
+ul.location_icon li {
+    font-size: 21px;
+    line-height: 30px;
+    color: #353535;
+    text-align: left;
+    padding-bottom: 35px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.map iframe {
+    width: 500px;
+    height: 250px;
+}
+
+.map {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;     /* Centrar verticalmente */
+    color: #1dcc60;
+}
+
+
+/*------contactos----------*/
+.footer {
+    background: #f7f7f9;
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+
+* {
+    box-sizing: border-box !important;
+}
+
+div {
+    display: block;
+}
+
+/*----------------------------*/
+.container {
+    display: flex;
+    align-items: left; /* Centrar verticalmente los elementos */
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+
+p {
+    flex: 2; /* Para que el párrafo ocupe todo el espacio restante */
+}
+/*----------------------------*/
+
+/*estilo a las tablas*/
+
+h1{
+   color: rgb(0, 4, 255);
+   font-size: 30px; 
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+   border-bottom-left-radius: 2%;
+   -webkit-text-stroke: 2px rgb(255, 255, 255);  /* Para navegadores WebKit como Chrome y Safari */
+    text-shadow: 2px rgb(255, 255, 255);         /* Para navegadores que soporten la propiedad text-stroke */
+    color:4px 2px rgb(255, 255, 255);    
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+}
+
+p{
+    color: rgb(5, 2, 180);
+    font-size: 16px;
+}
+
+ul, li, ol {
+    margin: 15px;
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 16px;
+    color: chartreuse;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.texto{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(); 
+}
+
+
+/*formato a las imagenes*/
+
+form{
+    background-color:goldenrod;
+    font-size: 30px;
+    color: #1d1c1c;
+    padding: 2px;
+    border: solid 2px #ccc;
+    padding: 10px;
+    align-content: center;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 30px;
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 280px;
+}
+
+
+.center-content{
+    text-align: center;
+}
+
+/*-----------------------*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+/*--------------------------------*/
+/*primera parte*/
+.card1{
+    width: 100%;
+	margin:auto;
+    display: flex;
+	border-radius: 0%;
+    justify-content: center;
+	overflow: hidden;
+	background:#e2c106;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+    align-items: center
+}
+
+.card1 img{
+	width: 800px;
+	height: 500px;
+    margin-right: 40px;
+}
+/*--------------------------------*/
+
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+/*Tamaño imagenes*/
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #1dcc60;
+	border: 1px solid #1dcc60;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #1dcc60;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+
+
+/* Estilo base del botón */
+
+
+
+button{
+    background-color: #007bff; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño del texto */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */   
+}
+
+
+/* Estilos para el contenedor centrado */
+.contenedor1{
+    display: flex;
+    align-items: center;
+   
+    text-align:center;
+    border-color: #050505 20px;
+    background-color:rgba(75, 114, 44, 0.288);
+}
+
+/*estilo de las presentacion -- kit podologico*/
+.presentacion{
+    width: 500px;
+    height: 350px;
+    margin-right:70px;
+    margin-left: 100px;
+    border-radius: 6px;
+    border-color: #050505 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+}
+
+/*color de fondo de texto*/
+#presentacion{
+    font-size: 35px;
+    color:  #050505 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*-----------nosotros----------------*/
+/* Estilos para el contenedor centrado */
+.contenedor2{
+    display: flex;
+    align-items: center;
+   
+    text-align:center;
+    border-color: #050505 20px;
+    background-color:rgba(99, 44, 92, 0.219);
+}
+
+/*estilo de las presentacion -- kit podologico*/
+.presentacion2{
+    width: 800px;
+    height: 500px;
+    margin-right:40px;
+    margin-left: 30px;
+    border-radius: 6px;
+    border-color: #050505 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+}
+
+/*color de fondo de texto*/
+#presentacion2{
+    font-size: 35px;
+    color:  #050505 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------*/
+
+
+
+
+
+
+/*-----------ofertas----------------*/
+/* Estilos para el contenedor centrado */
+.contenedor3{
+    display: flex;
+    align-items: center;
+   
+    text-align:center;
+    border-color: #050505 20px;
+    background-color:rgba(241, 98, 73, 0.377);
+}
+
+/*estilo de las presentacion -- kit podologico*/
+.presentacion3{
+    width: 500px;
+    height: 400px;
+    margin-right:40px;
+    margin-left: 40px;
+    border-radius: 6px;
+    border-color: #050505 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+}
+
+/*color de fondo de texto*/
+#presentacion3{
+    font-size: 30px;
+    color:  #050505 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------*/
+
+
+/*-----------contactos------------- */
+.formconto{
+    display: flex;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin: 0;
+    background-color:rgba(32, 218, 178, 0.137);
+    font-size: 30px;
+    color: #080a74;
+    padding: 2px;
+    border: solid 2px #ccc;
+}
+#Enviar{
+    color: #080a74;
+}
+
+input, textarea{
+    align-items: center;
+    border: 0;
+    outline: none;
+    width: 15px;
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 280px;
+}
+
+
+.center-content{
+    text-align: center;
+}
+
+/*________________________________*/
+
+
+#kit{
+    color: #00f2fa;
+    font-size: 50px;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    color: #1dcc60;
+    font-size: 35px;
+}
+
+.href{
+    color: #1dcc60;
+}
